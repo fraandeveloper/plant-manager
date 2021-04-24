@@ -1,22 +1,9 @@
 import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+
+import { Welcome } from './src/screen/Welcome';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>
-        Hello, world
-      </Text>
-    </View>
+    <Welcome />
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100%',
-    width: '100%'
-  }
-});
